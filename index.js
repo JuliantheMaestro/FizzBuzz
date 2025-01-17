@@ -1,17 +1,20 @@
-let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "))
+//My attempt at recreating fizzbuzz
 
-for (let i = 1; let <=  answer; i++){
+userInput = prompt("Enter your number: ");
 
-    if (i % 3 === 0){
-        console.log("Fizz")
+for (let i = 1; i <= userInput; i++) {
 
-    } else if(i % 5 === 0){
-        console.log("Buzz")
+    if (userInput % 3 === 0 && userInput % 5 === 0) {
+        console.log("FizzBuzz");
+        } else if (userInput % 3 === 0) {
+            console.log("Fizz");
+        } else if (userInput % 5 === 0) {
+            console.log("Buzz");
+        } else {
+            console.log(userInput);
+        } 
 
-    } else if (i % 3 === 0 && i % 5 === 0){
-        console.log("FizzBuzz")
-    } else {
-        console.log(i)
-    }
-    
 }
+
+/*Awesome I successfully solved fizzbuzz by myself and really understood it!! The only problem I ran into was checking if the user input
+is equal to 0 for each multiple of 3, 5 or 3 and 5*/ 
