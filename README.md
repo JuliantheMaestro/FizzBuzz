@@ -1,0 +1,1 @@
+This is a simple exercise to print out fizz when a user inputs a number divisible by 3, buzz when the user inputs a number divisible by 5 and fizzbuzz when the user inputs a number  divisible by 3 and 5. Working through this made me think about problem solving more using javascript utilizing pseudocode to really think through the steps.
